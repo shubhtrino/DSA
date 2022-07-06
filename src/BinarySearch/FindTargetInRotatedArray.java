@@ -22,6 +22,8 @@ public class FindTargetInRotatedArray {
             if(nums[mid]==target){
                 return mid;
             }
+            //3,5,6,8,9,1,2
+            //1
             if(nums[left] <= nums[mid]){
                 if(target>=nums[left] && target<=nums[mid]){
                     return findTargetInRotatedArray(nums,target,left,mid-1);
@@ -29,6 +31,8 @@ public class FindTargetInRotatedArray {
                 return findTargetInRotatedArray(nums,target,mid+1,right);
 
             }
+            //8,9,1,2,3,5,6
+            //3
             if(target>=nums[mid] && target <= nums[right]){
                 return findTargetInRotatedArray(nums,target,mid+1,right);
             }

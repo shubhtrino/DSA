@@ -4,7 +4,7 @@ public class FindMinimumInRotatedArray {
     public static void main(String[] args) {
 
         int num[] ={5,6,9,12,1};
-
+                //9,12,1,5,6 12 is mid
         int minimum = findMinimum(num, 0, num.length - 1);
 
         System.out.println(minimum);

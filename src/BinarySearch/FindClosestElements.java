@@ -8,7 +8,7 @@ public class FindClosestElements {
 
     public static void main(String[] args) {
         int[] nums = {10, 12, 15, 17, 18, 20, 25 };
-        int target = 16, k = 4;
+        int target = 16, k = 3;
 
         System.out.println(findClosestElements(nums, k, target));
     }

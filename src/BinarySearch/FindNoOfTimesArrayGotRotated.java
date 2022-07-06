@@ -5,7 +5,8 @@ public class FindNoOfTimesArrayGotRotated {
     public static void main(String[] args) {
 
         int inputArr[] ={1,2,4,6,9,12};
-        int rotatedArray[] = {1,2,4,6,9,12};
+        int rotatedArray[] = {4,6,9,12,1,2};
+        //9,12,1,2,4,6
 
         int left =0;
         int right = rotatedArray.length-1;
