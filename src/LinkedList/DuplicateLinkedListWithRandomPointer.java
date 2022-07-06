@@ -61,6 +61,7 @@ public class DuplicateLinkedListWithRandomPointer {
         }
     }
 
+    //setp 1
     public Node addNodeInBetween(Node head){
 
         Node current=head;
@@ -73,6 +74,7 @@ public class DuplicateLinkedListWithRandomPointer {
         return head;
     }
 
+    //step 2
     public void adjustRandomPointer(Node current){
         while (current!=null){
             if(current.next!=null){
