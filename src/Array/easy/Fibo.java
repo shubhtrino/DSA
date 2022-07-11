@@ -1,4 +1,4 @@
-package Array;
+package Array.easy;
 
 public class Fibo {
     public int fib(int n) {
