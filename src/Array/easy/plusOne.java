@@ -13,7 +13,7 @@ Thus, the result should be [1,2,4].
 import java.util.Arrays;
 
 public class plusOne {
-    public int[] plusOne(int[] digits) {
+    public int[] plusOneSolution(int[] digits) {
 
         int n = digits.length;
         for(int i=n-1 ;i>=0;i--){
@@ -32,6 +32,6 @@ public class plusOne {
 
     public static void main(String[] args) {
         plusOne plusOne= new plusOne();
-        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{9, 9})));
+        System.out.println(Arrays.toString(plusOne.plusOneSolution(new int[]{6, 9})));
     }
 }
